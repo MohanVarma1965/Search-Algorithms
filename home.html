@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<div lang="en"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<h1 class="heading">AI Assignment 2- Search Algorithms</h1>
+
+<div>
+
+    <form onsubmit="formSubmit(event)">
+        <div class="divider">
+            <div>
+
+                <div class="inputBox">
+                    <h2>Input Matrix</h2>
+                    <input type="text" id="0" value="2"></input>
+                    <input type="text" id="1" value="8"></input>
+                    <input type="text" id="2" value="3"></input>
+                    <input type="text" id="3" value="1"></input>
+                    <input type="text" id="4" value=""></input>
+                    <input type="text" id="5" value="6"></input>
+                    <input type="text" id="6" value="7"></input>
+                    <input type="text" id="7" value="5"></input>
+                    <input type="text" id="8" value="4"></input>
+                </div>
+
+
+                <div class="outputBox">
+                    <h2>Expected Output</h2>
+                    <input type="text" id="9" value="1"></input>
+                    <input type="text" id="10" value="2"></input>
+                    <input type="text" id="11" value="3"></input>
+                    <input type="text" id="12" value="8"></input>
+                    <input type="text" id="13" value=""></input>
+                    <input type="text" id="14" value="4"></input>
+                    <input type="text" id="15" value="7"></input>
+                    <input type="text" id="16" value="6"></input>
+                    <input type="text" id="17" value="5"></input>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" id="bfs"> Breath First search</input>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="dfs"> Bounded depth first search</input>
+                    <span> ******* Enter the depth value ******* </span>
+                    <input class="depthInput" type="text" id="depthValue" value="8"></input>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="ids"> Iterative deepening search</input>
+                </div>
+
+                <div>
+                    <div style=" margin-top:40px">A* using different hueristic functions</div>
+                    <input type="checkbox" id="tilesOutOfPlace"> Using number of tiles out of space</input>
+                    <input type="checkbox" id="manhattanDistance"> Using min distance - ManhattanDistance</input>
+                    <div></div>
+                    <input type="checkbox" id="hueristicH"> Using Hueristic H given as (Manhattan + 3*sequence score )</input>
+                    <input type="checkbox" id="chebyshev"> Using Chebeshev solution</input>
+                </div>
+                <input class="button" type="submit"/>
+            </div>
+        </div>
+
+
+    </form>
+
+    <div id="timeTaken" class="time"> Time taken to execute the code</div>
+
+    <div id="resultMatrix" class="resultMatrix"></div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>

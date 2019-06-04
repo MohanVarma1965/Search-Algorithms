@@ -1,0 +1,120 @@
+body {
+    background: #afe2b3;
+}
+
+.heading {
+    text-align: center;
+    background: #c3d2c2;
+    padding: 20px;
+    border-radius: 17px;
+
+}
+
+.tracePath{
+    margin-top: 10px;
+    width: 100%;
+    font-size: large;
+    background: #c3d2c2;
+    padding: 20px;
+    border-radius: 17px;
+}
+
+.time {
+    margin-top: 10px;
+    width: 97%;
+    font-size: large;
+    background: #c3d2c2;
+    padding: 20px;
+    border-radius: 17px;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+.inputBox {
+    display: inline-block;
+    width: 200px;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+
+.depthInput {
+    width: 50px;
+    border: 3px solid;
+    text-align: center;
+}
+
+
+
+.inputBox input {
+    border: 1px solid blue;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+.outputBox {
+    display: inline-block;
+    width: 200px;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+
+.outputBox input {
+    border: 1px solid blue;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 3px;
+
+}
+
+
+.button {
+    padding: 20px;
+    border-radius: 10px;
+    background: #c3d2c2;
+    width: 185px;
+    font-size: 20px;
+    color: #11311a;
+    margin: 20px;
+    height: 65px;
+}
+
+.resultMatrix {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eachResult {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    width: 150px;
+    font-size: x-large;
+    flex-wrap: wrap;
+    text-align: center;
+
+    background: whitesmoke;
+    border: 1px solid;
+    padding: 7px 0;
+}
+
+.eachResult span {
+    width: 33.33%;
+}
